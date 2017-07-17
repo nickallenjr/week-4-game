@@ -1,9 +1,14 @@
 body {
-	background-image: url("assets/images/resevoirwallp.jpg");
+	background-image: url("http://orig01.deviantart.net/106b/f/2010/304/7/6/reservoir_dogs_by_ravecat-d31uwp3.jpg");
+	background-size: contain;
 }
-.image {
+.header {
 	position: relative;
 	width: 100%;
+}
+
+.image {
+	width: 63%;
 }
 
 h1 {
@@ -29,24 +34,28 @@ h1 span {
 	padding: 2% 4% 2% 2%;
 }
 
+p {
+	text-align: center;
+}
+
 .white {
-	color: black;
+	color: white;
 }
 
 .pink {
-	color: pink;
+	color: #ff79d8;
 }
 
 .blonde {
-	color: beige;
+	color: #ffd800;
 }
 
 .orange {
-	color: orange;
+	color: #fd9006;
 }
 
 .brown {
-	color: brown;
+	color: #8f472e;
 }
 
 #number {
